@@ -1,0 +1,37 @@
+{
+  "name": "jyqxz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "f2e start",
+    "build": "f2e build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyqxz/jyqxz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyqxz/jyqxz/issues"
+  },
+  "homepage": "https://github.com/jyqxz/jyqxz#readme",
+  "devDependencies": {
+    "f2e-middle-rollup": "^0.3.3",
+    "f2e-server": "^2.9.16",
+    "rollup": "^1.2.3",
+    "rollup-plugin-commonjs": "^9.2.1",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-typescript2": "^0.19.2",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "dexie": "^2.0.4",
+    "ipreact": "^0.2.2",
+    "ipreact-router": "^0.5.2",
+    "preact": "^8.4.2"
+  }
+}
